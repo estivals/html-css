@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /*
+        # = id
+        . = class
+        : = pseudo-class
+        :: = pseudo-element
+        > = children
+        */
+        body{
+            font-family: sans-serif;
+           
+        
+        }
+        a{
+            color: blue;
+            text-decoration: none;
+            background-color: rgba(4, 0, 255, 0.425);
+        }
+        a:visited{
+            color: blueviolet
+        }
+        a:hover{
+            text-decoration: underline;
+        }
+        a::before{
+            content: '==> ';
+        }
+        a::after{
+            content: ' <==';
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://github.com/estivals?tab=repositories" target="_blank">repositorio github</a></li>
+        <li><a href="https://www.youtube.com/channel/UCuoy0tERXqpen98In7c_MHw" target="_blank">canal no youtube</a></li>
+        <li><a href="hover.html" target="_blank">site do erisvaldim</a></li>
+    </ul>
+</body>
+</html>
