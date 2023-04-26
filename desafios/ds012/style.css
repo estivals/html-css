@@ -1,0 +1,46 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+/* font-family: 'Patrick Hand', cursive;*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+   
+}
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 270px;
+}
+header p a{
+    text-decoration: none;
+    color: white;
+}
+main section{
+    background-image: url(joaninha.jpg);
+    height: 800px;
+    background-position: center center;
+    
+}
+p{
+    font-size: 2em;
+}
+p.preto{
+    
+    background-color: black;
+    color: white;
+    width: 550px;
+    height: 600px;
+    margin: 40px;
+    margin-top: 40px;
+}
+footer{
+    background-color: black;
+    color: white;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
