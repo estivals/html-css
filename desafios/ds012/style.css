@@ -39,15 +39,13 @@ main p{
     font-size: 50px;
 }
 main section{
-    background-image: url(joaninha.jpg);
+    background-image: url(joaninhapq.jpg);
     background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
     background-size: cover;
     
 }
 main section.escrituras{
-    background-image: url(escrita.jpg);
+    background-image: url(escritapq.jpg);
 }
 p{
     font-size: 2em;
