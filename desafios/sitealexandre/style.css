@@ -19,9 +19,8 @@ body{
 p{
     text-indent: 20px;
     text-align: justify;
-    min-width: 300px;
-    max-width: 1000px;
-    margin: auto;
+    margin: 15px;
+    
     
 }
 header{
@@ -36,14 +35,16 @@ header h1{
     text-align: center;
     padding-top: 130px ;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.534);
+    font-size: 4em;
 }
 header p{
-    padding-top: 105px;
+    padding-top: 49px;
 }
 header p a{
     text-decoration: none;
     color: rgb(255, 255, 255);
     padding: 10px;
+    
 }
 header p a:hover{
     background-color: rgba(255, 255, 255, 0.267);
@@ -53,19 +54,25 @@ main{
     width: 1000px;
     margin: auto;
 }
+main h2{
+    font-size: 1.7em;
+}
+img.ft{
+    margin-left: 80px;
+}
 .mim{
     display:inline-flex;
     align-items: center;
     margin: 10px;
     
 }
-img{
-    height: 300px;
-}
+
 table{
     border: 1px solid black;
     border-collapse: collapse;
-    width: 300px;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
     
 }
 td{
@@ -76,16 +83,14 @@ td{
     background-color: var(--cor4);
     color: white;
 }
-div{
-    
-    height: 600px;
-    background-image: url(imagens/estivalentregascerto.jpg);
-    background-attachment: fixed;
-    background-size: cover
+th{
+    background-color: lightgray;
 }
-.diva{
-    height: 600px;
-    background-image: url(imagens/pcpq.jpg);
-    background-attachment: fixed;
-    background-size: cover;
+footer {
+    background-color: var(--cor4);   
+}
+footer p{
+    margin: 0;
+    text-align: center;
+    color: white;
 }
