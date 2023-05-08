@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com Formulários</title>
+    <style>
+        *{
+            font-family: sans-serif;
+        }
+        </style>
+</head>
+<body>
+    <h1>Meu primeiro formulário</h1>
+    <form action="cadastro.php" autocomplete="off">
+        <p><label for="inome">nome:</label>
+            <input type="text" name="nome" id="inome"></p>
+        <p><label for="isobrenome">sobrenome:</label>
+            <input type="text" name="sobrenome" id="isobrenome"></p>
+        <p><input type="submit" value="enviar"></p>
+    </form>
+    <h1>segundo formulário</h1>
+    <form action=""  autocomplete="off" method="post">
+        <p><label for="ivoce">você é gay?</label> 
+            <input type="text" name="voce" id="ivoce" ></p>
+        <p><label for="irealmente">você realmente não é gay?</label> 
+            <input type="text" name="realmente" id="irealmente"></p>
+            <input type="submit">
+    </form>
+    
+</body>
+</html>
