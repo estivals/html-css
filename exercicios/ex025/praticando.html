@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+        body{
+            font-family: sans-serif;
+            background-color: rgba(255, 228, 196, 0.497);
+        }
+        h1{
+            text-align: center;
+        }
+        form{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>o quão você conhece o Alexandre? vamos descobrir!</h1>
+    <form action="">
+        <p>
+            <label for="icomida">qual a comida preferida dele?</label>
+            <input type="text" name="comida" id="icomida" required placeholder="comida preferida">
+        </p>
+        <p>
+            <label for="data">qual a da do nascimento dele?</label>
+            <input type="date" name="data" id="data" required>
+        </p>
+        <p>
+            <label for="local">onde você conheceu ele?</label>
+            <input type="text" name="local" id="local" required placeholder="local onde conheceu">
+        </p>
+        <p>
+            <input type="submit">
+            <input type="reset" value="limpar">
+        </p>
+
+    </form>
+
+</body>
+</html>
