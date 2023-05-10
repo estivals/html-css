@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+/*estilo para telas*/
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-family: sans-serif;
+}
+header{
+    background-color: rgba(211, 211, 211, 0.64);
+    
+}
+header > h1{
+    text-align: center;
+}
+menu ul{
+    list-style-type: none;
+    background-color: lightgray;
+    
+}
+menu li{
+    background-color: rgba(0, 0, 139, 0.631);
+    display: inline-block;
+    padding: 10px;
+    color: white;
+}
+article{
+    width: 700px;
+    margin:auto;
+}
