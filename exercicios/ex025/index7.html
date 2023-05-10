@@ -7,6 +7,45 @@
     <title>Formulário</title>
 </head>
 <body>
+    <form action="" method="post" autocomplete="on">
+        <p>
+            <label for="iest">estado:</label>
+            <select name="estado" id="iest">
+                <optgroup label="Região Sudeste">
+                    <option value="mg">Minas Gerais</option>
+                    <option value="rj">Rio de Janeiro</option>
+                    <option value="sp">São Paulo</option>
+                </optgroup>
+
+                <optgroup label="Região Nordeste">
+                    <option value="ma">Maranhão</option>
+                    <option value="ti">Tilambuco</option>
+                    <option value="rn">Rio Grande do Norte</option>
+                </optgroup>
+
+            </select>
+        </p>
+        <p>
+            <label for="iprof">Profissão:</label>
+            <input type="text" name="prof" id="iprof" list="lstprof">
+            <datalist id="lstprof">
+                <option>puta</option>
+                <option>Profissional em Computaria</option>
+                <option>Cafetão</option>
+                <option>Ladrão</option>
+                <option>Estelionatário</option>
+                <option>Traficante</option>
+            </datalist>
+        </p>
+        <p>
+            <label for="imsg"> Dê seu feedback: <br></label>
+            <textarea name="msg" id="imsg" cols="30" rows="10" placeholder="sua mensagem..."></textarea>
+        </p>
+        <p>
+            <input type="submit">
+            <input type="reset">
+        </p>
+    </form>
     
 </body>
 </html>
