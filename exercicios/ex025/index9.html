@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulário</title>
+</head>
+<body>
+    <p>
+        <label for="inum">number:</label>
+        <input type="range" name="inum" id="inum" oninput="isoma.innerHTML = Number(inum.value)">
+    </p>
+    <p>
+        <label for="number">number:</label>
+        <output name="n" id="isoma"></output>
+    </p>
+    <p>
+        <input type="submit">
+        <input type="reset" value="limpar">
+    </p>
+</body>
+</html>
