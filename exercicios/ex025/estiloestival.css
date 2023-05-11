@@ -1,0 +1,31 @@
+@charset "UTF-8";
+body{
+    background: url(PXL_20230429_084630018\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    
+    text-align: justify;
+    font-family: sans-serif;
+
+}
+main{
+    width: 700px;
+    background-color: white;
+    margin: auto;
+    border-radius: 10px;
+}
+img{
+    width: 500px;
+    height:400px ;
+    margin-left: 100px;
+}
+@media screen and (max-width:768px) {
+    body{
+        
+    }
+    main{
+        width: 400px;
+    }
+}
