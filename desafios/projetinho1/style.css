@@ -38,7 +38,7 @@ div{
     padding-top: 30px;
 }
 main>form>div.barra>input,select{
-    width: 397px;
+    width: 100%;
     height: 38px;
     border-radius: 6px;
     border: none;
@@ -64,7 +64,7 @@ div.check input{
 }
 textarea{
     margin-top: 5px;
-    width: 395px;
+    width: 100%;
     height: 120px;
 }
 textarea::placeholder{
