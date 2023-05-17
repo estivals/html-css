@@ -5,9 +5,26 @@
     padding: 0;
     font-family: 'Poppins', sans-serif;
 }
+body{
+    background-image: url(imagens/fotoprogramandocerto.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+header h1{
+    color:white;
+    font-weight:400 ;
+    text-align: center;
+}
+header p{
+    color: white;
+    text-align: center;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
 main{
     display: block;
-    background-color: #312F48;
+    background-color: #312f48c4;
     
     max-width:483px;
     margin: auto;
@@ -35,6 +52,10 @@ select{
     text-indent: 15px;
     color: #666C71;
 }
+div.radio input{
+    width: 18px;
+    height: 18px;
+}
 div.check input{
     width: 18px;
     height: 18px;
@@ -58,4 +79,5 @@ textarea::placeholder{
     border-radius: 2px;
     color: white;
     text-align: center;
+    margin-bottom: 65px;
 }
