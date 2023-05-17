@@ -12,7 +12,7 @@ main{
     max-width:483px;
     margin: auto;
     color: white;
-    font-weight: 500;
+    font-weight: 400;
     font-size: 1.2em;
 }
 div{
@@ -20,6 +20,42 @@ div{
     padding-right: 40px;
     padding-top: 30px;
 }
-{
-    width: 300;
+main>form>div.barra>input,select{
+    width: 397px;
+    height: 38px;
+    border-radius: 6px;
+    border: none;
+}
+input,::placeholder{
+    font-size: 0.9em;
+    text-indent: 15px;
+}
+select{
+    font-size: 0.8em;
+    text-indent: 15px;
+    color: #666C71;
+}
+div.check input{
+    width: 18px;
+    height: 18px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+textarea{
+    margin-top: 5px;
+    width: 395px;
+    height: 120px;
+}
+textarea::placeholder{
+    font-size: 1.2em;
+    padding-top: 10px;
+}
+.submit input{
+    width: 397px;
+    height: 50px;
+    background-color:#37AF65 ;
+    border: none;
+    border-radius: 2px;
+    color: white;
+    text-align: center;
 }
