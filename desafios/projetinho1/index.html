@@ -16,12 +16,12 @@
     <main>
         <form action="">    
             <div class="barra">
-                <label for="nome">Name</label><br>
-                <input type="text" name="nome" id="nome" placeholder="Enter your name">
+                <label class="poxa" for="nome">Name</label><br>
+                <input type="text" name="nome" id="nome" placeholder="Enter your name" required>
             </div>
             <div class="barra">
                 <label for="email">Email</label><br>
-                <input type="email" name="email" id="email" placeholder="Enter your Email">
+                <input type="email" name="email" id="email" placeholder="Enter your Email" required>
             </div>
             <div class="barra">
                 <label for="age">Age (optional)</label><br>
@@ -30,7 +30,7 @@
             <div class="barra">
                     
                 <label for="seletor">Which option best describes your current role?</label><br>
-                <select name="seletor" id="seletor" >
+                <select name="seletor" id="seletor" required>
                     <option disabled selected value  >   Select current role</option>
                     <option>student</option>
                     <option>Full Time Job</option>
@@ -41,8 +41,8 @@
             </div>
             <div class="radio">
                 Would you recommend freeCodeCamp to a friend?<br>
-                <input type="radio" name="radio" id="radio">
-                <label for="radio">Definitely</label> <br>
+                <input type="radio" name="radio" id="radio" >
+                <label for="radio1">Definitely</label> <br>
                 <input type="radio" name="radio" id="aradio">
                 <label for="aradio">Maybe</label> <br>
                 <input type="radio" name="radio" id="bradio">
@@ -51,7 +51,7 @@
             </div>
             <div class="barra">
                 <label for="seleçao">What is your favorite feature of freeCodeCamp?</label><br>
-                <select name="seleçao " id="seleçao">
+                <select name="seleçao " id="seleçao" required>
                     <option disabled selected value >Select an option</option>
                     <option>Challenges</option>
                     <option>Projects</option>

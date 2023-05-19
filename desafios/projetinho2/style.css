@@ -1,0 +1,72 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    height: 100%;
+}
+div{
+    display: block;
+}
+.img1{
+    background-image: url(imagens/city-day.jpg);
+    min-height: 100vh;
+}
+.border1{
+    color:white ;
+    background-color: #000;
+    padding: 20px;
+}
+.img2{
+    background-image: url(imagens/lights.jpg);
+    min-height: 400px;
+}
+.border2{
+    color:white;
+    
+}
+.img3{
+    background-image:url(imagens/city-night.jpg);
+    min-height: 400px;
+}
+.border3{
+    color: white;
+}
+.img4{
+    background-image:url(imagens/cachoeira.jpg) ;
+    min-height: 100vh;
+}
+.border4{
+    color: white;
+}
+.img1, .img2, .img3, .img4{
+    position: relative;
+    opacity: 0.70;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}    
+.titulo{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+section{
+    text-align: center;
+    padding: 50px 80px;
+    line-height: 1.8em;
+    opacity: .70;
+}
+h1{
+    margin-bottom: 20px;
+}
+    

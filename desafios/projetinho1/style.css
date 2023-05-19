@@ -8,6 +8,7 @@
 body{
     background-image: url(imagens/fotoprogramandocerto.jpg);
     background-size: cover;
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center center;
 }
@@ -25,24 +26,28 @@ header p{
 }
 main{
     display: block;
-    background-color: #312f48c4;
-    
+    background-color: #262641d5;
+    border-radius: 5px;
     max-width:483px;
     margin: auto;
     color: white;
     font-weight: 400;
     font-size: 1.2em;
 }
+
 div{
     padding-left: 40px;
     padding-right: 40px;
     padding-top: 30px;
 }
+
+
 main>form>div.barra>input,select{
     width: 100%;
     height: 38px;
     border-radius: 6px;
     border: none;
+    margin-top: 5px;
 }
 input,::placeholder{
     font-size: 0.9em;
@@ -81,4 +86,5 @@ textarea::placeholder{
     color: white;
     text-align: center;
     margin-bottom: 65px;
+    text-indent: 0px;
 }
