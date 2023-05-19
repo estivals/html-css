@@ -45,6 +45,8 @@ div p{
     line-height: 1.6em;
     font-size: 18px;
     padding-bottom: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 main{
     background-color: #333333;
@@ -59,10 +61,35 @@ div.white{
     display: block;
     margin: auto;
     background-color: white;
-    width: 350px;
-    margin-bottom: 10px;
-    
+    max-width: 350px;
+    margin-bottom: 10px; 
+}
+.white p{
+    padding-left: 20px;
+    padding-right: 20px;
 }
 .img{
-    margin-bottom: 0px;
+    margin-bottom: -4px;
+}
+.blue{
+    background-color: #2690D4;
+    color: white;
+}
+.gray{
+    background-color: #333333;
+    color: white;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    height:120px ;
+}
+footer p{
+    padding-top:40px ;
+    font-weight:600;
+}
+footer p a{
+    text-decoration: none;
+    color:#2690D4 ;
 }
