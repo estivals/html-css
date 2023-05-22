@@ -47,6 +47,13 @@
         min-height: 590px;
         
     }
+    .juntinho{
+        display:grid;
+        grid-template-columns: 1fr repeat(2, minmax(auto, 25em)) 1fr;
+    }
+    .blue{
+        grid-column: span 2;
+    }
 }
 @media screen and (min-width:950px) {
     div.white{
@@ -57,7 +64,7 @@
         margin-bottom: 10px; 
     }
     .mae{
-        
+      
     }
     img{
         width: 275px;
@@ -67,5 +74,16 @@
         display: inline-block;
         min-height: 590px;
         
+    }
+    .juntinho{
+        
+    }
+    .blue{
+        
+    }
+    .cansado{
+        max-width: 800px;
+        display: block;
+        margin: auto;
     }
 }
