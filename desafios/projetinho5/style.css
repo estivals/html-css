@@ -3,6 +3,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
   /*
   #17212A 
@@ -11,3 +12,15 @@
   #2C355C
   #5968AB
   */
+  #grad {
+    background-image: url(imagens/pexels-felix-mittermeier-956999.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 150px;
+    color: white;
+    text-align: center;
+  }
+  main{
+    width: 100px;
+  }
