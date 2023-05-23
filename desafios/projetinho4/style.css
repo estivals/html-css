@@ -30,6 +30,8 @@ img{
 h1{
     text-align: center;
     padding: 40px 0px 30px 0px; 
+    color: #ffb4b1;
+    text-shadow: 1px 1px 1px palevioletred;
 }
 p{
     line-height: 1.4em;
@@ -37,21 +39,31 @@ p{
     text-align: center;
 }
 .redondo{
-    padding-bottom: 30px;
-    margin: auto;
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+    
 }
-form .redondo #emai{
-    width: 250px;
+#emai{
+    width: 220px;
     height: 30px;
-    border-radius: 20px;
-    border: 1px solid #9B505D;
-    background-color: #f1e8e3;
+    border-radius: 15px;
+    border: 1px solid pink;
     text-align: center;
 }
-.redondo .sub{
-    width: 60px;
-    height: 31px;
-    border-radius: 20px;
-    border: 1px solid #66353d;
-    background-color: #9B505D;
+#sub{
+    width: 220px;
+    height: 30px;
+    border-radius: 15px;
+    border: 1px solid palevioletred;
+    background-color: #ffb4b1;
+    margin-left: 1px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
+#sub:hover{
+    background-color: #bc8482 ;
+    cursor: pointer;
+}
+
+
