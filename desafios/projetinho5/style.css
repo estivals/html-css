@@ -52,6 +52,7 @@
   }
   .parallax{
     background-image: url(imagens/galaxia.jpg);
+    background-position: center center;
     background-size: cover;
     background-attachment: fixed;
     height: 100vh;
