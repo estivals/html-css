@@ -21,6 +21,10 @@
     color: white;
     text-align: center;
   }
+  main{
+    width: 350px;
+    margin: auto;
+  }
   main h1,h2{
     text-align: center;
     color:#17212A  ;
@@ -51,4 +55,8 @@
     background-size: cover;
     background-attachment: fixed;
     height: 100vh;
+  }
+  form{
+    
+    
   }
