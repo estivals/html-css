@@ -50,6 +50,14 @@
     height: 30vh;
     color: white;
   }
+  #name , #email{
+    width: 230px;
+    height: 25px;
+    border: 1px solid #17212A ;
+    background-color: #5968AB;
+    border-radius: 15px;
+    
+  }
   .parallax{
     background-image: url(imagens/galaxia.jpg);
     background-position: center center;
