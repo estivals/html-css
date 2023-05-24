@@ -8,11 +8,171 @@
     <link rel="stylesheet" href="style.css">
  </head>
  <body>
-    <header id="grad">
+    <header id="head">
         <h1>APRENDIZADOS ESTIVAL</h1>
     </header>
     <main>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut similique tempora aliquid ducimus eum fugit a, quaerat iure dolor minima distinctio repellat harum quas, dolorem quae id voluptatum aperiam magni! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci temporibus qui repellendus deserunt? Illum, natus ullam enim nulla maxime numquam unde eius pariatur aut quod aliquam consequatur culpa dicta soluta. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur eos inventore dicta, ab veritatis obcaecati rerum suscipit quidem, voluptate voluptatem mollitia incidunt explicabo, laudantium voluptatibus quam impedit delectus eaque beatae. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore saepe atque quia minima ea iste hic molestiae aliquid eaque quaerat. Tempora accusantium voluptatibus qui alias voluptates, mollitia quam? Itaque, libero?</p>
+        <h1>Esse site foi criado para mostrar as pricipais coisas que sei fazer. </h1>
+        <h2>TABELA DE CRIA</h2>
+        <div class="tabela">
+            <table>
+                <tr>
+                    <th>CLASSIFICAÇÃO</th>
+                    <th>PONTOS</th>
+                </tr>
+                <tr>
+                    <td>Botafogo</td>
+                    <td>18</td>
+                </tr>
+                <tr>
+                    <td>Palmeiras</td>
+                    <td>15</td>
+                </tr>
+                <tr>
+                    <td>Fluminense</td>
+                    <td>13</td>
+                </tr>
+                <tr>
+                    <td>Atlético-MG</td>
+                    <td>13</td>
+                </tr>
+                <tr>
+                    <td>Cruzeiro</td>
+                    <td>12</td>
+                </tr>
+                <tr>
+                    <td>Flamengo</td>
+                    <td>12</td>
+                </tr>
+                <tr>
+                    <td>Athletico-PR</td>
+                    <td>12</td>
+                </tr>
+                <tr>
+                    <td>São Paulo</td>
+                    <td>12</td>
+                </tr>
+                <tr>
+                    <td>Santos</td>
+                    <td>11</td>
+                </tr>
+                <tr>
+                    <td>Grêmio</td>
+                    <td>11</td>
+                </tr>
+                <tr>
+                    <td>Fortaleza</td>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <td>Bragantino</td>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <td>Bahia</td>
+                    <td>7</td>
+                </tr>
+                <tr>
+                    <td>Cuiabá</td>
+                    <td>7</td>
+                </tr>
+                <tr>
+                    <td>Internacional</td>
+                    <td>7</td>
+                </tr>
+                <tr>
+                    <td>Goiás</td>
+                    <td>7</td>
+                </tr>
+                <tr>
+                    <td>Vasco</td>
+                    <td>6</td>
+                </tr>
+                <tr>
+                    <td>Corinthians</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>América-MG</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td>Coritiba</td>
+                    <td>2</td>
+                </tr>
+            
+            </table>
+        </div>
+
+        <h2 class="h2">FORMULÁRIO</h2>
+        <form action="" method="post">
+            <div>
+                <label for="name">Nome:</label>
+                <input type="text" name="name" id="name" required placeholder="digite seu nome">
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" required placeholder="digite seu E-mail">
+            </div>
+            <div>
+                <label for="">você prefere ficar sozinho para o resto da vida ou estar sempre rodeado de gente insuportável?</label> <br>
+                <input type="radio" name="jogo" id="opçao1">
+                <label for="opçao1">sozinho</label>
+                <input type="radio" name="jogo" id="opçao2">
+                <label for="opçao2">rodeado de gente insuportável</label>
+            </div>
+            <div>
+                <label for="">marque coisas que você gosta de fazer:</label> <br>
+                <input type="checkbox" name="marcar" id="imarcar">
+                <label for="imarcar">Traficar</label> <br>
+                <input type="checkbox" name="roubar" id="iroubar">
+                <label for="iroubar">Roubar</label> <br>
+                <input type="checkbox" name="assaltar" id="iassaltar">
+                <label for="iassaltar">Assaltar</label> <br>
+                <input type="checkbox" name="assassinar" id="iassassinar">
+                <label for="iassassinar">Assassinar</label> <br>
+                <input type="checkbox" name="bater" id="ibater">
+                <label for="ibater">Bater nas pessoas</label> <br>
+                <input type="checkbox" name="humilhar" id="ihumilhar">
+                <label for="ihumilhar">Humilhar</label> <br>
+                <input type="checkbox" name="fofocar" id="ifofocar">
+                <label for="ifofocar">Fofocar</label> <br>
+                <input type="checkbox" name="usar" id="iusar">
+                <label for="iusar">Usar drogas</label> <br>
+                <input type="checkbox" name="correr" id="icorrer">
+                <label for="icorrer">Correr da policia</label> <br>
+                
+            </div>
+            <div>
+                <label for="">Se você pudesse escolher um carro, qual escolheria?</label> <br>
+                <select name="carro" id="icarro"> 
+                    <option value="" disabled selected  >Escolha</option>
+                    <option value="">Honda Civic Híbrido 2023</option>
+                    <option value="">VW Jetta GLI 2023</option>
+                    <option value="">Corolla GR-S 2.0 Flex 2023</option>
+                </select>
+            </div>
+            <div>
+                <p>dê seu feedback do site do erisvaldinho:</p>
+                    <textarea name="" id="" cols="30" rows="10" placeholder="digite algum comentário..."></textarea>
+            </div>
+            <input type="submit" value="ENVIAR">
+        </form>
+        <h2>EFEITO PARALLAX PICA DAS GALAXIAS</h2>
+        <div class="parallax">
+            
+        </div>
+        <h2>MUSICA, IMAGEM E VIDEO</h2>
+        <div>
+            <audio src="musica/what is love.mp3" controls ></audio>
+        </div>
+        <div>
+            <img src="imagens/fotoerivassss1.png" alt="">
+        </div>
+        <div>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Ar6Z9U7w-Kk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+
     </main>
     
  </body>

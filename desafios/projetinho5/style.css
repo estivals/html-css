@@ -12,7 +12,7 @@
   #2C355C
   #5968AB
   */
-  #grad {
+  #head {
     background-image: url(imagens/pexels-felix-mittermeier-956999.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -21,6 +21,34 @@
     color: white;
     text-align: center;
   }
-  main{
-    width: 100px;
+  main h1,h2{
+    text-align: center;
+    color:#17212A  ;
+  }
+  main table{
+     text-align: center;
+     border-collapse:collapse ;
+     margin: auto;
+  }
+  main td,th{
+    border: 2px solid;
+  }
+  main th{
+    
+  }
+  main td{
+    background-color: #5968AB;
+  }
+  .h2{
+    background-image: url(imagens/pexels-philippe-donn-1169754.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    height: 30vh;
+    color: white;
+  }
+  .parallax{
+    background-image: url(imagens/galaxia.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
   }
