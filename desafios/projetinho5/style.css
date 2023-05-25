@@ -50,14 +50,32 @@
     height: 30vh;
     color: white;
   }
-  #name , #email{
-    width: 230px;
-    height: 25px;
-    border: 1px solid #17212A ;
-    background-color: #5968AB;
-    border-radius: 15px;
+  .inputtxt{
+    width: 100%;
+    margin: 30px 0;
     
   }
+  .inputtxt label{
+    transition: .5s ease-in-out;
+  }
+  .inputtxt input{
+    width: 100%;
+    padding: 5px;
+    border: 0;
+    border-bottom: 2px solid #5968AB ;
+    outline: 0;
+  }
+  input::placeholder{
+    font-size:15px ;
+  }
+  .inputtxt input:focus,
+  .inputtxt  input:valid{
+    border-bottom: 2px solid #2b3a7d;
+  }  
+  .formradio label{
+    
+
+  }   
   .parallax{
     background-image: url(imagens/galaxia.jpg);
     background-position: center center;
