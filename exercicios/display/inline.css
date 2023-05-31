@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.example{
+    color: white; 
+    text-align: center; 
+}
+.example-item{
+    width: 33.33%;
+    height: 150px;
+    display: inline;
+}
+.example-item_first{
+    background-color: red;
+}
+.example-item_second{
+    background-color: green;
+}
+.example-item_third{
+    background-color: blue;
+    }

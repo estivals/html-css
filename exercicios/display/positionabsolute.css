@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.elementExample{
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+}
+.elementExample_first{
+    background-color: #6c5ce7;
+    position: absolute;
+    right: 0;
+}
+.elementExample_second{
+    background-color: #00b894;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
+    
+}
+.elementExample_last{
+    background-color: #d63031;
+    
+
+}
+.elementExample-internal{
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    background-color: #00cec9;
+    position: absolute;
+    
+    transform: translate(50%, 50%);
+}
