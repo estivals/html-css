@@ -7,7 +7,6 @@
     max-width: 350px;
     margin: auto;
 }
-main{
-    background-image: url(imagens/trono-editado.png);
-    
+main img{
+    width: 350px;
 }
