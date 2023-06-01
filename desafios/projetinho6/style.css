@@ -1,0 +1,13 @@
+@charset "UTF-8";
+*{
+    padding: 0;
+    margin: 0;
+}
+.mae{
+    max-width: 350px;
+    margin: auto;
+}
+main{
+    background-image: url(imagens/trono-editado.png);
+    
+}
