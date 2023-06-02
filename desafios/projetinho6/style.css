@@ -2,6 +2,7 @@
 *{
     padding: 0;
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .mae{
     max-width: 350px;
@@ -12,10 +13,12 @@ header{
     color: white;
     text-align: center;
     margin: auto;
+    padding-top: 50px;
 }
 main{
     margin: auto;
     width: 500px;
+    height: 450px;
     background-color: black;
 }
 main .imagem{
@@ -23,6 +26,6 @@ main .imagem{
     text-align: center;
 }
 main img{
-    width: 350px;
+    width: 400px;
 }
 .sec
