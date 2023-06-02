@@ -62,3 +62,17 @@ main img{
     font-size: 20px;
     margin-bottom: 50px;
 }
+form{
+    text-align: justify;
+    letter-spacing: -1px;
+    font-weight: 700;
+}
+#name , #numero{
+    width: 350px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: 600;
+    padding-left: 10px;
+    border: none;
+    background-color: #E3E3E7;
+}
