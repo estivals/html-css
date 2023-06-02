@@ -7,6 +7,21 @@
     max-width: 350px;
     margin: auto;
 }
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: auto;
+}
+main{
+    margin: auto;
+    width: 500px;
+    background-color: black;
+}
+main .imagem{
+    margin: auto;
+    text-align: center;
+}
 main img{
     width: 350px;
 }
