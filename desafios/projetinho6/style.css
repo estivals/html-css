@@ -78,4 +78,25 @@ form{
 }
 .comprar input{
     background-color: #00FFA0;
+    height: 55px;
+    border-radius: 27px;
+    border: none;
+    padding: 0px 10px 0px 10px;
+    cursor: pointer;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.comprar input:hover{
+    background-color: #00b371;
+}
+.p{
+    display: inline;
+}    
+.vermelho{
+    
+    color: red;  
+}
+.sec2 img{
+    margin-bottom: 30px;
 }
