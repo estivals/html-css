@@ -75,4 +75,13 @@ form{
     padding-left: 10px;
     border: none;
     background-color: #E3E3E7;
+    margin-top: 10px;
+    margin-bottom:15px ;
+}
+.comprar {
+    margin: auto; 
+    text-align: center;
+}
+.comprar input{
+    background-color: #00FFA0;
 }
