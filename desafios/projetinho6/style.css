@@ -28,4 +28,32 @@ main .imagem{
 main img{
     width: 400px;
 }
-.sec
+.sec1{
+    text-align: center;
+    font-weight: 600;
+    font-size: 19px;
+}
+.titulo1{
+    padding: 40px 0px 35px 0px;
+    line-height: 1.3em;
+}
+.sec2{
+    text-align: center;
+    margin-top:30px ;
+}
+.sec2 .mercadopago{
+    width: 200px;
+   margin-top: 50px; 
+   margin-bottom: 40px;
+    
+}
+.bandeira{
+    width: 350px;
+    margin-bottom: 80px;
+}
+.sec2 .letras{
+    font-size: 30px;
+    font-weight: 900;
+    letter-spacing: -3px;
+    line-height: 30px;
+}
