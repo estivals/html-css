@@ -120,6 +120,9 @@ form{
     list-style-position:inside ;
     letter-spacing: -1px;
 }
+.sec4{
+    text-align: center;
+}
 .sec4 h2{
     color: #00C6FB;
     font-size: 27px;
@@ -128,6 +131,7 @@ form{
 }
 .sec4 p{
     line-height: 1.5em;
+    
 }
 .sec5 h2{
     color: #00C6FB;
