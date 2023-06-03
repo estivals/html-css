@@ -117,6 +117,7 @@ form{
 .sec3 ul{
 line-height: 2.5em;
 text-indent: 10px;
-
+list-style-position:inside ;
+letter-spacing: -1px;
 }
 
