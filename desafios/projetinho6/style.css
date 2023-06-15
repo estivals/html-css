@@ -36,6 +36,7 @@ header{
 }
 .frame{
     text-align: center;
+    margin-bottom: 20px;
 }
 .container{
     display: flex;
