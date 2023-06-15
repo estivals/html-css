@@ -31,9 +31,17 @@ header{
     padding: 40px 0px 35px 0px;
     line-height: 1.3em;
 }
-.sec2{
+.frame{
     text-align: center;
-    margin-top:30px ;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+    margin: auto; 
+}
+.element{
+    text-align: center;
 }
 .sec2 .mercadopago{
     width: 200px;
