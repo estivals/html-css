@@ -4,10 +4,6 @@
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
-.mae{
-    max-width: 350px;
-    margin: auto;
-}
 header{
     background-color: black;
     color: white;
@@ -108,10 +104,6 @@ form{
 .sec2 img{
     margin-bottom: 30px;
 }
-.mae2{
-    margin-top: 70px;
-    background-color:#F1F1F3 ;
-}
 .sec3 , .sec5 , .sec8{
     max-width: 350px;
     margin: auto;
@@ -139,7 +131,11 @@ form{
 }
 .sec4 p{
     line-height: 1.5em;
-    
+    padding-bottom: 20px;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: start;
+    padding-left: 20px;
 }
 .sec5 h2{
     color: #00C6FB;
