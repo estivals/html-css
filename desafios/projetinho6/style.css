@@ -4,6 +4,9 @@
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
+.box{
+    background-color: #F1F1F3;
+}
 header{
     background-color: black;
     color: white;
@@ -22,6 +25,10 @@ header{
     text-align: center;
     font-weight: 600;
     font-size: 19px;
+}
+.star img{
+    width: 200px;
+    padding-bottom: 10px;
 }
 .titulo1{
     padding: 40px 0px 35px 0px;
@@ -104,11 +111,6 @@ form{
 .sec2 img{
     margin-bottom: 30px;
 }
-.sec3 , .sec5 , .sec8{
-    max-width: 350px;
-    margin: auto;
-
-}
 .sec3 h2{
     padding: 40px 0px 25px 0px ;
     font-size: 25px;
@@ -185,6 +187,10 @@ form{
 }
 .sec9{
     text-align: center;
+}
+.sec9 h1{
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 footer{
     background-color: black;
