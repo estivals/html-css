@@ -89,7 +89,7 @@ form{
     text-align: center;
 }
 .comprar input{
-    background-color: #00FFA0;
+    background-color: #00bf79;
     height: 55px;
     border-radius: 27px;
     border: none;
@@ -100,14 +100,17 @@ form{
     margin-bottom: 30px;
 }
 .comprar input:hover{
-    background-color: #00b371;
+    background-color: #006943;
 }
+.aviso{
+    padding-bottom: 30px;
+}  
 .p{
     display: inline;
-}    
+}  
 .vermelho{
-    
     color: red;  
+
 }
 .sec2 img{
     margin-bottom: 30px;
