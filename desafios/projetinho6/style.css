@@ -38,6 +38,9 @@ header{
     text-align: center;
     margin-bottom: 20px;
 }
+video{
+    width: 350px;
+}
 .container{
     display: flex;
     flex-direction: column;
@@ -128,6 +131,7 @@ form{
 }
 .sec4{
     text-align: center;
+    align-items: center;
 }
 .sec4 h2{
     color: #00C6FB;
