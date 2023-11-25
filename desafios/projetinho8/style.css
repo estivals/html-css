@@ -7,7 +7,7 @@
 body{
     background: url(imagem/image.png);
     background-repeat: no-repeat;
-    background-position: ;
+    background-position: '';
     background-size: cover;
 }
 header{
@@ -80,4 +80,7 @@ main{
     background-color: #FCC21E;
     font-weight: bold;
     cursor: pointer;
+}
+.emputethree input:hover{
+    background-color: #c59f36dc;
 }
